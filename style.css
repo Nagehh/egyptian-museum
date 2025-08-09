@@ -1,0 +1,249 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: 'Georgia', serif;
+  background-color: #f9f9f9;
+}
+
+.header {
+  background-color: #1F2937;
+  padding: 0 200px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 100px;
+}
+
+.main-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-logo {
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.header-list {
+  display: flex;
+  align-items: center;
+}
+
+.ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  gap: 20px;
+}
+
+.ul li {
+  cursor: pointer;
+  font-size: 16px;
+  transition: color 0.3s ease;
+}
+
+.ul li:hover {
+  color: #fdd9a0;
+}
+
+.second-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-content {
+  max-width: 600px;
+}
+
+#para-main {
+  font-size: 48px;
+  font-weight: 900;
+  margin-bottom: 18px;
+}
+
+#para-secondary {
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 20px;
+}
+
+#sign-up {
+  background-color: #3882F6;
+  color: white;
+  border: none;
+  border-radius: 10px;
+  font-size: 18px;
+  padding: 10px 30px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+}
+
+#sign-up:hover {
+  background-color: #2563eb;
+}
+
+.header-img {
+  width: 700px;
+  height: 250px;
+  background-color: gray;
+  color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  border-radius: 10px;
+  overflow: hidden;
+}
+
+.content-one {
+  text-align: center;
+  padding: 80px 100px;
+  background-color: #ffffff;
+}
+
+.para-content-one {
+  font-size: 36px;
+  font-weight: 900;
+  color: #1F2937;
+  margin-bottom: 40px;
+}
+
+.items {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.box1 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Tutankhamun_Mask.jpg');
+}
+
+.box2 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/71/Egyptian_mummy_Louvre.jpg');
+}
+
+.box3 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d6/Abu_Simbel%2C_Ramses_Temple.jpg');
+}
+
+.box4 {
+  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/KarnakTemples.jpg');
+}
+
+.item {
+  width: 200px;
+}
+
+.box {
+  width: 200px;
+  height: 200px;
+  border: solid 4px #3882F6;
+  border-radius: 20px;
+  background-color: #ddd;
+  background-position: center;
+  background-size: cover;
+  margin-bottom: 10px;
+}
+
+.item p {
+  font-size: 14px;
+  color: #333;
+}
+
+.content-two {
+  background-color: #E5E7EB;
+  padding: 100px 200px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.para-content-two {
+  font-size: 36px;
+  font-style: italic;
+  color: #1F2937;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.para-content-end {
+  font-weight: 900;
+  align-self: flex-end;
+  text-align: right;
+  width: 100%;
+}
+
+.content-three {
+  padding: 80px 200px;
+  background-color: #fff;
+}
+
+.cta {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #3882F6;
+  color: white;
+  padding: 30px 60px;
+  border-radius: 10px;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.text-three {
+  max-width: 600px;
+}
+
+.para-three-main {
+  font-weight: 900;
+  font-size: 24px;
+  margin-bottom: 5px;
+}
+
+.para-three {
+  margin-top: 0;
+  font-size: 16px;
+}
+
+.sign-up-content {
+  display: flex;
+  align-items: center;
+}
+
+.sign-up-again {
+  background-color: #3882F6;
+  color: white;
+  border: 2px solid white;
+  border-radius: 10px;
+  padding: 10px 25px;
+  font-weight: 900;
+  cursor: pointer;
+  transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.sign-up-again:hover {
+  background-color: white;
+  color: #3882F6;
+}
+
+.footer {
+  background-color: #1F2937;
+  color: white;
+  text-align: center;
+  padding: 20px 0;
+  font-size: 14px;
+}
+
+.para-footer {
+}
