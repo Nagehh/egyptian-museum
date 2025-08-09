@@ -6,13 +6,13 @@
 
 body {
   margin: 0;
-  font-family: 'Georgia', serif;
+  font-family: Arial, sans-serif;
   background-color: #f9f9f9;
 }
 
 .header {
   background-color: #1F2937;
-  padding: 0 200px;
+  padding: 0 100px;
   color: white;
   display: flex;
   flex-direction: column;
@@ -24,6 +24,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
+  padding: 20px 0;
 }
 
 .header-logo {
@@ -38,6 +39,7 @@ body {
 
 .ul {
   display: flex;
+  align-items: center;
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -48,10 +50,6 @@ body {
   cursor: pointer;
   font-size: 16px;
   transition: color 0.3s ease;
-}
-
-.ul li:hover {
-  color: #fdd9a0;
 }
 
 .second-header {
@@ -87,13 +85,9 @@ body {
   transition: background-color 0.3s ease;
 }
 
-#sign-up:hover {
-  background-color: #2563eb;
-}
-
 .header-img {
   width: 700px;
-  height: 250px;
+  height: 300px;
   background-color: gray;
   color: white;
   display: flex;
@@ -125,31 +119,29 @@ body {
 }
 
 .box1 {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/e/e3/Tutankhamun_Mask.jpg');
+  background-image: url('https://images.adsttc.com/media/images/6604/702e/ac59/6f0c/f43c/39fa/large_jpg/photos-of-the-grand-egyptian-museum-revealed-in-egypt_1.jpg?1711566901');
 }
 
 .box2 {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/7/71/Egyptian_mummy_Louvre.jpg');
+  background-image: url('https://images.squarespace-cdn.com/content/v1/5f14d04ebd60fa3de12e3960/ec780fef-c480-46c7-9776-1dbf5be96c7a/Grand+Egyptian+Museum+Staircase+Top.jpeg');
 }
 
 .box3 {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/d/d6/Abu_Simbel%2C_Ramses_Temple.jpg');
+  background-image: url('https://cdn.hassanallam.com/app/uploads/2022/08/DJI_0006-2000x1125.jpg');
 }
 
 .box4 {
-  background-image: url('https://upload.wikimedia.org/wikipedia/commons/1/1c/KarnakTemples.jpg');
+  background-image: url('https://dynamic-media-cdn.tripadvisor.com/media/photo-o/2d/d0/4a/ff/caption.jpg?w=900&h=500&s=1');
 }
 
 .item {
-  width: 200px;
+  width: 500px;
 }
 
 .box {
-  width: 200px;
-  height: 200px;
-  border: solid 4px #3882F6;
+  width: 500px;
+  height: 500px;
   border-radius: 20px;
-  background-color: #ddd;
   background-position: center;
   background-size: cover;
   margin-bottom: 10px;
@@ -229,12 +221,6 @@ body {
   padding: 10px 25px;
   font-weight: 900;
   cursor: pointer;
-  transition: background-color 0.3s ease, color 0.3s ease;
-}
-
-.sign-up-again:hover {
-  background-color: white;
-  color: #3882F6;
 }
 
 .footer {
@@ -243,7 +229,4 @@ body {
   text-align: center;
   padding: 20px 0;
   font-size: 14px;
-}
-
-.para-footer {
 }
